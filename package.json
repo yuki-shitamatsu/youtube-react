@@ -1,6 +1,7 @@
 {
   "name": "youtube-react",
   "version": "0.1.0",
+  "homepage": "https://yuki-shitamatsu.github.io/youtube-react/",
   "private": true,
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.34",
@@ -21,14 +22,12 @@
     "react-youtube": "^7.13.1",
     "web-vitals": "^0.2.4"
   },
-  "homepage": "http://yuki-shitamatsu.github.io/youtube-react",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "npm run build && gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
